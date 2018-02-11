@@ -91,7 +91,14 @@ figcaption {
 
 .col-3 {
   background: #ccc:
+}
 
+.clearfix:after {
+  content: "."
+  display: block;
+  clear: both;
+  visibility: hidden;
+  height: 0;
 }
 
 [class*="col-"] {
