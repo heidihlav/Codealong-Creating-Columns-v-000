@@ -90,15 +90,26 @@ img, video, audio {
   width: 40px;
   height: 40px;
   background: yellow;
-  
+
 }
 
 /* SECTIONS */
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: white;
+  z-index: 1;
+}
 
 section {
   padding: 20px;
   margin-bottom: 20px;
 }
+
+
 /* LAYOUT */
 
 * { /*include padding and border in size of content*/
