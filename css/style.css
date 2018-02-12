@@ -83,6 +83,10 @@ section {
 }
 /* LAYOUT */
 
+* { /*include padding and border in size of content*/
+  box-sizing: border-box;
+}
+
 .wrapper {
   width: 960px;
   margin: 0 auto;
