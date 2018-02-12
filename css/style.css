@@ -85,6 +85,8 @@ section {
 
 * { /*include padding and border in size of content*/
   box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
 }
 
 .wrapper {
